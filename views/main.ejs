@@ -1,0 +1,123 @@
+<div id="start_event" data-aos="zoom-in" data-aos-duration="2000">
+  Sustainable Design
+</div>
+<div id="MAIN_BACK_DIV">
+  <img id="MAIN_LOGO_IMG" src="/public/images/KakaoTalk_20210905_193454724_0221.png" alt="">
+</div>
+<div id="body_div" style="padding-bottom: 200px;">
+  <div id="MAIN_NAV">
+    <img class="nav_span" onclick="location.href='/'" id="MAIN_NAV_IMG" src="/public/images/KakaoTalk_20210904_025027112.png" alt="">
+    <div>
+      <span class="nav_span" onclick="location.href='/about'">About</span>
+      <span class="nav_span" onclick="location.href='/archive'">Archive</span>
+      <span class="nav_span" onclick="location.href='/participants'">Participants</span>
+      <span class="nav_span" onclick="location.href='/epilogue'">Epilogue</span>
+      </div>
+  </div>
+  <div id="MAIN_CONTAINER">
+    <div id="MAIN_TOP_LEFT">
+      <h1>2021</h1>
+      <h1>Dongseo</h1>
+      <h1>University</h1>
+      <h1>Advertising Design</h1>
+      <h1>route. Exhibition</h1>
+    </div>
+    <img src="/public/images/main-1.png" alt="">
+  </div>
+  <div id="MAIN_CONTAINER2">
+    <img style="height: 350px; margin-top: 110px;" src="/public/images/KakaoTalk_20210905_03515711304.jpg" alt="">
+  </div>
+  <div id="MAIN_CONTAINER3">
+    <h2><b>S</b>ustainable <b>D</b>evelopment <b>G</b>oals</h2>
+    <p>2021년 광고디자인 루트의 졸업작품전 테마는 ‘SDGs(Sustainable Development Goals) Design’입니다.</p>
+    <p>지속가능발전 목표는 인류의 미래를 위해 반드시 달성해야 하는 목표이며</p>
+    <p>2015년 UN 총회가 채택한 의제로, 인 류의 지속가능한 발전을 위해</p>
+    <p>2030년까지 국제사회가 시행해야 할 17개 목표와 169개 세부목표를 담고 있습니다.</p>
+    <p>빈곤, 기아, 질병, 교육, 성평등, 물, 에너지, 경제, 고용, 불평등, 기후변화, 생물다양성, 사회구조 등</p>
+    <p>지구적 난제 해결을 목표로 하고 있습니다.</p>
+
+    <p style="margin-top: 40px; font-weight: bold;">14개팀의 지속가능한 프로젝트를 통해,</p>
+    <p style="font-weight: bold;">지속가능한 디자이너를 목표로 여러분들과 함께 공유하고자 합니다.</p>
+  </div>
+  <div id="MAIN_CONTAINER4">
+    <h1>Graduation Exhibition 2021</h1>
+    <h1>Opening Show</h1>
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+      <iframe width="800" height="400" src="https://www.youtube.com/embed/aZHuYhZHNtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style="margin-left: 20px;" width="800" height="400" src="https://www.youtube.com/embed/EbVN9TFrMIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div id="MAIN_CONTAINER5" data-aos="fade-out">
+    <p>Credit</p>
+    <p id="credit_title">2021 동서대학교 광고 디자인루트 온라인 졸업전시회</p>
+    <p class="credit_subtitle">졸업준비위원회</p>
+    <p class="credit_detail">위원장&nbsp;&nbsp;박찬웅&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;부위원장&nbsp;&nbsp;&nbsp;남현희</p>
+    <p class="credit_title_detail">홍보팀</p>
+    <p class="credit_detail">황채영&nbsp;&nbsp;이유림&nbsp;&nbsp;최수정&nbsp;&nbsp;곽다정&nbsp;&nbsp;신해지</p>
+    <p class="credit_title_detail">영상팀</p>
+    <p class="credit_detail">김동일&nbsp;&nbsp;석지윤&nbsp;&nbsp;이치수&nbsp;&nbsp;임가현</p>
+    <p class="credit_title_detail">전시팀</p>
+    <p class="credit_detail">김현지&nbsp;&nbsp;정예진&nbsp;&nbsp;하수정</p>
+    <p class="credit_subtitle">지도교수</p>
+    <p class="credit_detail">김해윤&nbsp;&nbsp;서한석&nbsp;&nbsp;김기수</p>
+    <p class="credit_subtitle">참여학생</p>
+    <p class="credit_detail">강대겸&nbsp;&nbsp;곽다정&nbsp;&nbsp;김동일&nbsp;&nbsp;김민주&nbsp;&nbsp;김연재&nbsp;&nbsp;김현지&nbsp;&nbsp;나타샤&nbsp;&nbsp;남현희&nbsp;&nbsp;박민준</p>
+    <p class="credit_detail">박수환&nbsp;&nbsp;박지선&nbsp;&nbsp;박찬웅&nbsp;&nbsp;방은비&nbsp;&nbsp;석지윤&nbsp;&nbsp;신해지&nbsp;&nbsp;윤서주&nbsp;&nbsp;이나경&nbsp;&nbsp;이유림</p>
+    <p class="credit_detail">이지후&nbsp;&nbsp;이치수&nbsp;&nbsp;임가현&nbsp;&nbsp;전소희&nbsp;&nbsp;정예진&nbsp;&nbsp;조재영&nbsp;&nbsp;최수정&nbsp;&nbsp;하수정&nbsp;&nbsp;황채영</p>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function(e){
+    setTimeout(() => {
+        document.querySelector('#start_event').style.display="none";
+        document.querySelector('body').style.backgroundColor="#2979FF";
+        document.querySelector('#MAIN_LOGO_IMG').style.visibility="visible";
+    }, 2000);
+  });
+  var main_logo = document.querySelector('#MAIN_LOGO_IMG');
+  const clientRect = main_logo.getBoundingClientRect();
+  var topy = parseInt(window.pageYOffset + clientRect.top);
+  var top1=false;
+  var left1=false;
+  function movey() {
+    if(topy > -2000){
+      main_logo.style.top=topy+"px";
+      topy=topy-15;
+    } else {
+      top1=true;
+    }
+  }
+  main_logo.addEventListener("click",(main_logo2)=>{
+    main_logo.style.width="10%";
+    main_logo.style.left="45%";
+    var myVar = setInterval(myTimer, 4);
+    function myTimer(){
+      movey();
+      if(top1){
+        clearInterval(myVar);
+        setTimeout(() => {
+          document.querySelector("#window_body").style.backgroundColor="white";
+          document.querySelector('#MAIN_BACK_DIV').style.visibility="hidden";
+          document.querySelector('#MAIN_CONTAINER').style.backgroundColor="white";
+          document.querySelector('#MAIN_CONTAINER2').style.display="flex";
+          document.querySelector('#body_div').style.display="flex";
+          document.body.style.overflowY="auto";
+        }, 200);
+      }
+    }
+  })
+  document.addEventListener('scroll', function() {
+    console.log(document.documentElement.scrollTop);
+    if(document.documentElement.scrollTop > 100){
+      document.querySelector('#MAIN_NAV').style.top="-100px";
+      document.querySelector('#MAIN_NAV_IMG').style.top="-100px";
+    } else {
+      document.querySelector('#MAIN_NAV').style.top="0px";
+      document.querySelector('#MAIN_NAV_IMG').style.top="50px";
+    }
+    // if(document.documentElement.scrollTop > 1600){
+    //   document.querySelector('#MAIN_CONTAINER5').style.opacity="1";
+    // }
+  });
+</script>
+

@@ -1,0 +1,243 @@
+html {
+  width: 100%;
+  height: auto;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  transition: 0.7s all;
+  overflow: hidden;
+}
+p {
+  margin: 0;
+}
+#body_div {
+  width: 100%;
+  height: auto;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#start_event {
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#MAIN_LOGO_IMG {
+  visibility: hidden;
+  position: absolute;
+  width: 15%;
+  top: 35.5%;
+  left: 42.5%;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.5s ease;
+  /* animation-name: minseok;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: 5;
+  animation-play-state: paused;
+  animation-timing-function: 1s;
+  animation-fill-mode: both; */
+}
+#MAIN_LOGO_IMG:hover {
+  transform: scale(1.05);
+}
+#MAIN_CONTAINER {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  transition: all 0.3ms;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+#MAIN_TOP_LEFT {
+  width: 100%;
+  padding-left: 303px;
+}
+#MAIN_TOP_LEFT h1 {
+  font-size: 100px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 115px;
+}
+#MAIN_CONTAINER img {
+  position: absolute;
+  height: 60vh;
+  right: 300px;
+}
+#MAIN_NAV {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+#MAIN_NAV img {
+  position: fixed;
+  width: 100px;
+  top: 50px;
+  left: 300px;
+}
+#MAIN_NAV div {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  position: absolute;
+  right: 350px;
+  top: 50px;
+  font-size: 22px;
+}
+#MAIN_NAV div span {
+  margin-left: 25px;
+  font-weight: bold;
+}
+.main_second {
+  width: 100%;
+  height: auto;
+  border: 5px solid red;
+  color: black;
+}
+.FLIP_CONTAINER {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FLIP_CONTAINER div img {
+  width: 50%;
+}
+#MAIN_CONTAINER2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-left: 30%;
+  margin-top: -150px;
+}
+#MAIN_CONTAINER2 img {
+  height: 600px;
+}
+#MAIN_CONTAINER3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  padding-left: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#MAIN_CONTAINER3 h2 {
+  font-size: 50px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 1px 1px 1px #212121;
+}
+#MAIN_CONTAINER3 b {
+  color: #212121;
+}
+#MAIN_CONTAINER3 p {
+  color: #212121;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  font-size: 20px;
+}
+#MAIN_CONTAINER4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  padding-left: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+#MAIN_CONTAINER4 h1 {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  line-height: 76px;
+}
+#MAIN_CONTAINER4 iframe {
+  margin-top: 50px;
+}
+
+#MAIN_CONTAINER5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+
+#MAIN_CONTAINER5 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+}
+#credit_title {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 42px !important;
+  letter-spacing: -1.8px;
+  margin-top: 30px;
+}
+.credit_subtitle {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 32px !important;
+  letter-spacing: -1.8px;
+  margin-top: 25px;
+}
+.credit_title_detail {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 24px !important;
+  letter-spacing: -1.4px;
+  font-weight: 500;
+  margin-top: 28px;
+}
+.credit_detail {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 20px !important;
+  letter-spacing: -1.4px;
+  font-weight: 500 !important;
+  margin-top: 8px;
+}
+.nav_span {
+  cursor: pointer !important;
+}
